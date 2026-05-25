@@ -150,6 +150,7 @@
 }
 .magnetic-btn.border-primary:hover {
   background-color: color-mix(in oklab, var(--primary) 10%, transparent) !important;
+  color: var(--primary) !important;
 }
 .magnetic-btn:hover::after { opacity: 1; }
 

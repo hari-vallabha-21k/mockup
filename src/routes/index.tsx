@@ -41,7 +41,7 @@ const PRODUCTS: Product[] = [
   {
     id: "phantom-shell-jacket",
     title: "PHANTOM SHELL JACKET",
-    price: "¥48,000",
+    price: "₹4,800",
     tag: "NEW",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-Cd8A42KrbbrW_0Em91dejghrZ3hjk9fFbKvVB_NRkPVkuicwmRJV93Gyyu38ERy2W_8Sz_eVHI6X1Rf0YVb8ttHKoA9F43fM7oqbdeKOft3Rw9FQDw7sueiggb-kYjGQZCPH5iADrWXqqG5W5VZVjenGOgu8EuMgJ1mhp6quWJoCeZz5Mcwp6AnAi4iah_Y0nohWi_Tky1sN3kmcWpSH4yrctRTCJO1gvEZzGXo75wpFffmIYQLkgCVVIyMu3b58b1G6Oum0kpEj",
     imageAlt: "https://lh3.googleusercontent.com/aida-public/AB6AXuBxTWzD6ToVXURE4IVphrtX7oP-LWChygSfY8ita7OVzd03pwQpAMzdyCNOawdCZhVMO0DiseB9pYrN4fioBat8f2zMm0N1boPYLEaEKNe549DW0ilD0669ZIme5bvi69YM8Skf2H0lSyup45BjSgWEyxBqEY1FcO11seXGESsJCvWBJfDR7PIoGIV5gs7eFCgHHi0Tbwu3HDlJI2jhifi4N9E1kYeIX2fiP4jk59EU774YSctGhq5uV6_AGkopmNwtUFdXVZWFvMMh",
@@ -49,8 +49,8 @@ const PRODUCTS: Product[] = [
   {
     id: "void-cargo-pant",
     title: "VOID CARGO PANT",
-    price: "¥32,000",
-    priceNote: "¥38,000",
+    price: "₹3,200",
+    priceNote: "₹3,800",
     tag: "ARCHIVE",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAFwC_1XArTAr0Xlvg4u9xJKDUntHstt1_8UV5Fc7eRj5wbqjUYdyXZl5m7s7MA3VTKej5jDoHp4RaW5VGdtIwmqlvQIJKja-N9LvBxK0lqOKr_VdiKWjxNqHq3661K7aGsXOvx_St5rBmKoXC3ZxM5yuW84vjPeR6IeLDS54Dh72bUzgeeTqzcnZtqBhl7_pJN9IXoJ3OOH0CZ18SEkbpCBRBC4wD2PwTiNYzh4shY_H9-cNQNkStXMTh7d84DJtmE6FLa7wYz9aw-",
     imageAlt: "https://lh3.googleusercontent.com/aida-public/AB6AXuCzmAa1eNW2K5uzxfSZ6ilUEQqZp7iH4GIFiLzTXd9U-cMbPCzyRK0BN5i6F9X6IWE_8cs4UsJPUVqK0DlueMEHQgfVrGNbd9ExEaaLd3G-cI4OLyiJ2fmAS2sAb-4hjj_I2jBJnjRctI4y_BXzZMazYaaPrWmMRempZuUmPv7gMjVj6WnCWX7KW1HVA5bHlv70D55UwKNr1YtM74e9QxYNJajyGKV_kS6vMxbG1SsNjD6zT1XPE-fq2SMX9mCfoC547R-eMHEnPGNg",
@@ -58,13 +58,13 @@ const PRODUCTS: Product[] = [
   {
     id: "oxide-tee",
     title: "OXIDE OVERSIZED TEE",
-    price: "¥18,500",
+    price: "₹1,850",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBxTWzD6ToVXURE4IVphrtX7oP-LWChygSfY8ita7OVzd03pwQpAMzdyCNOawdCZhVMO0DiseB9pYrN4fioBat8f2zMm0N1boPYLEaEKNe549DW0ilD0669ZIme5bvi69YM8Skf2H0lSyup45BjSgWEyxBqEY1FcO11seXGESsJCvWBJfDR7PIoGIV5gs7eFCgHHi0Tbwu3HDlJI2jhifi4N9E1kYeIX2fiP4jk59EU774YSctGhq5uV6_AGkopmNwtUFdXVZWFvMMh",
   },
   {
     id: "stitch-utility-vest",
     title: "STITCH UTILITY VEST",
-    price: "¥42,000",
+    price: "₹4,200",
     tag: "LIMITED",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCzmAa1eNW2K5uzxfSZ6ilUEQqZp7iH4GIFiLzTXd9U-cMbPCzyRK0BN5i6F9X6IWE_8cs4UsJPUVqK0DlueMEHQgfVrGNbd9ExEaaLd3G-cI4OLyiJ2fmAS2sAb-4hjj_I2jBJnjRctI4y_BXzZMazYaaPrWmMRempZuUmPv7gMjVj6WnCWX7KW1HVA5bHlv70D55UwKNr1YtM74e9QxYNJajyGKV_kS6vMxbG1SsNjD6zT1XPE-fq2SMX9mCfoC547R-eMHEnPGNg",
     imageAlt: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-Cd8A42KrbbrW_0Em91dejghrZ3hjk9fFbKvVB_NRkPVkuicwmRJV93Gyyu38ERy2W_8Sz_eVHI6X1Rf0YVb8ttHKoA9F43fM7oqbdeKOft3Rw9FQDw7sueiggb-kYjGQZCPH5iADrWXqqG5W5VZVjenGOgu8EuMgJ1mhp6quWJoCeZz5Mcwp6AnAi4iah_Y0nohWi_Tky1sN3kmcWpSH4yrctRTCJO1gvEZzGXo75wpFffmIYQLkgCVVIyMu3b58b1G6Oum0kpEj",
